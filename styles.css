@@ -94,11 +94,17 @@ p {
   border-radius: 5px;
   margin: 20px;
 }
-@media (max-width: 500px) {
+@media (max-width: 780px) {
   body {
     text-align: center;
   }
   .imageC {
     display: none;
+  }
+  .linkButton {
+    margin: 8px;
+  }
+  .linkDiv {
+    text-align: center;
   }
 }
